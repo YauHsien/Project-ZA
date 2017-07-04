@@ -1,0 +1,1 @@
+aws deploy create-deployment --application-name Project-ZA --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name ZAFleet-slsin0j --description "My demo deployment" --s3-location bucket=CodeDeployDemoBucket,bundleType=zip,eTag=dd56cfd59d434b8e768f9d77fEXAMPLE,key=Project-ZA.zip

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Charles Chang",
@@ -21,6 +22,7 @@
     "lodash": "^4.17.4",
     "react": "^0.13.3",
     "react-router": "^0.13.3",
+    "react-scripts": "^1.0.10",
     "reactify": "^1.1.1",
     "toastr": "^2.1.0",
     "vinyl-source-stream": "^1.1.0"
