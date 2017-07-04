@@ -49848,7 +49848,7 @@ var ManageAuthorPage = React.createClass({displayName: "ManageAuthorPage",
 		}
 
 		this.setState({errors: this.state.errors});
-		return formIsValid ; 
+		return formIsValid; 
 	},
 
 	saveAuthor: function(event) {
