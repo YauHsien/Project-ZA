@@ -40,7 +40,7 @@ var ManageAuthorPage = React.createClass({
 		}
 
 		this.setState({errors: this.state.errors});
-		return formIsValid ; 
+		return formIsValid; 
 	},
 
 	saveAuthor: function(event) {
