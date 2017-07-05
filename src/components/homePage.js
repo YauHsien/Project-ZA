@@ -4,6 +4,7 @@ var React = require('react');
 var Router = require('react-router');
 var Link = Router.Link; 
 var gMap = require('google-map-react');
+var SimpleMap = require('../sampleMap');
 
 var Home = React.createClass({
     initMap: function() {
@@ -16,10 +17,10 @@ var Home = React.createClass({
 	render: function() {
 		return (
 			<div className="jumbotron">
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS40sFe_ZSVXlNyXzaAt5x56VoI7HiJy4&callback=initMap" async defer></script>
 				<h1>Welcome to Learning Home Page</h1>
 				<p>React, React Router, Flux for ultra-responsive webapp.</p>
-				<Link to="about" className="btn btn-primary btn-lg">Learn more...</Link>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCS40sFe_ZSVXlNyXzaAt5x56VoI7HiJy4&callback=initMap" async defer></script>
+				<Link to="about" className="btn btn-primary btn-lg">Learn more...</Link>				
 			</div>
 		);
 	}
